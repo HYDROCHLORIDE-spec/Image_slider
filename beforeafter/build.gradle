@@ -1,0 +1,22 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id "org.jetbrains.kotlin.plugin.compose"
+}
+
+apply from: file("../common-config.gradle")
+
+android {
+    namespace 'com.smarttoolfactory.beforeafter'
+
+    defaultConfig {
+        consumerProguardFiles "consumer-rules.pro"
+    }
+}
+
+dependencies {
+    implementation 'com.github.SmartToolFactory:Compose-Extended-Gestures:4.0.0'
+
+    implementation 'androidx.compose.ui:ui-tooling'
+    implementation "androidx.compose.runtime:runtime"
+}
