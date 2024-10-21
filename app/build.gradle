@@ -27,9 +27,9 @@ dependencies {
 
     // Foundation (Border, Background, Box, Image, Scroll, shapes, animations, etc.)
     implementation 'androidx.compose.foundation:foundation'
-    implementation "androidx.compose.ui:ui:1.4.0"
+    implementation "androidx.compose.ui:ui:1.7.4"
     implementation "androidx.compose.material:material:1.4.0"
-    implementation "androidx.compose.ui:ui-tooling-preview:1.4.0"
+    implementation "androidx.compose.ui:ui-tooling-preview:1.7.4"
     // Material design icons
     implementation 'androidx.compose.material:material-icons-core'
     implementation 'androidx.compose.material:material-icons-extended'
